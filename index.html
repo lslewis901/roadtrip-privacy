@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — RoadTrip AI (Lewis Software Enterprises)</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #f59e0b;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 32px 16px 64px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 36px 32px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(245, 158, 11, 0.15);
+      color: var(--accent);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      letter-spacing: -0.02em;
+    }
+    .updated {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    h2 {
+      color: var(--accent);
+      font-size: 18px;
+      margin-top: 28px;
+      margin-bottom: 10px;
+    }
+    p, li {
+      color: #e2e8f0;
+      font-size: 15px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">RoadTrip AI • Overland Pass</div>
+    <h1>Privacy Policy</h1>
+    <div class="updated">Effective Date: November 10, 2026 &nbsp;|&nbsp; Developer: Lewis Software Enterprises</div>
+
+    <p>
+      <strong>RoadTrip AI</strong> ("the App"), developed and published by <strong>Lewis Software Enterprises</strong> ("we", "us", or "our"), is designed with a <strong>local-first privacy architecture</strong>. We do not sell, rent, or monetize your personal data or location history.
+    </p>
+
+    <h2>1. Information Stored Locally on Your Device</h2>
+    <p>
+      By default, the information you create or configure inside RoadTrip AI is stored locally on your device using on-device browser/application storage (<code>localStorage</code> and <code>IndexedDB</code>):
+    </p>
+    <ul>
+      <li><strong>Trip Itineraries &amp; Waypoints:</strong> Custom routes, daily stops, notes, and offline cached route geometry.</li>
+      <li><strong>Vehicle &amp; Towing Profiles:</strong> Vehicle fuel tank capacity, MPG, fuel type, and RV/trailer dimensions used to calculate fuel range and low-clearance safety alerts.</li>
+      <li><strong>Expense &amp; Budget Logs:</strong> Fuel fill-ups, lodging, food, and activity cost entries you log during your trip.</li>
+      <li><strong>User API Keys (Optional):</strong> If you choose to enter your own third-party AI API keys (such as Google Gemini, OpenAI, or Perplexity) in Settings, those keys are stored strictly on your device and transmitted only directly to the respective API provider when you request AI route generation.</li>
+    </ul>
+
+    <h2>2. Location Information</h2>
+    <p>
+      If you grant location permission, RoadTrip AI uses your device's GPS coordinates solely on-device to center the interactive map, calculate distance to upcoming stops, or set your starting origin. Your precise GPS location is never uploaded to or stored on servers operated by Lewis Software Enterprises.
+    </p>
+
+    <h2>3. Subscriptions &amp; In-App Purchases</h2>
+    <p>
+      Subscriptions and lifetime unlocks (<em>Overland Pass Pro</em>: <code>roadtrip_pro_annual</code>, <code>roadtrip_pro_monthly</code>, and <code>roadtrip_pro_lifetime</code>) are processed directly by <strong>Google Play Billing</strong> (on Android) or <strong>Apple StoreKit / App Store</strong> (on iOS). We do not receive, process, or store your credit card numbers or billing details. We only receive cryptographic purchase tokens/entitlement status from Google or Apple to unlock Pro features on your device.
+    </p>
+
+    <h2>4. Third-Party Services Used by the App</h2>
+    <p>
+      When your device is online, the App communicates directly with the following services to display maps, weather, elevation, and route calculations:
+    </p>
+    <ul>
+      <li><strong>OpenStreetMap / CARTO / Esri Map Tiles &amp; OSRM / Nominatim:</strong> Used to render map tiles, geocode stop names, and calculate driving routes.</li>
+      <li><strong>Open-Meteo API:</strong> Used to fetch weather forecasts and terrain elevation profiles along your route coordinates.</li>
+      <li><strong>AI Providers (Google Gemini / OpenAI / Perplexity):</strong> Used only when you actively request AI itinerary generation or route modifications.</li>
+    </ul>
+
+    <h2>5. Data Retention &amp; Deletion</h2>
+    <p>
+      Because your trips, vehicle profiles, and logs are stored locally on your device, you have full control over your data at all times:
+    </p>
+    <ul>
+      <li>You can delete individual trips, vehicles, or expenses directly inside the App.</li>
+      <li>You can clear all stored App data at any time by uninstalling the App or clearing the App's storage in your Android or iOS system settings.</li>
+      <li>We do not maintain external user accounts or cloud databases of your personal data requiring server-side account deletion.</li>
+    </ul>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      RoadTrip AI does not knowingly collect personal information from children under the age of 13.
+    </p>
+
+    <h2>7. Changes to This Privacy Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. Any updates will be posted at this URL (<a href="https://github.lewissoftware.com/privacy.html">https://github.lewissoftware.com/privacy.html</a>) and reflected inside the App's Legal &amp; Privacy modal with an updated Effective Date.
+    </p>
+
+    <h2>8. Contact Us</h2>
+    <p>
+      If you have any questions or concerns regarding this Privacy Policy or RoadTrip AI's privacy practices, please contact us at:<br />
+      <strong>Lewis Software Enterprises</strong><br />
+      Email: <a href="mailto:support@lewissoftware.com">support@lewissoftware.com</a>
+    </p>
+
+    <div class="footer">
+      <span>&copy; 2026 Lewis Software Enterprises. All rights reserved.</span>
+      <span><a href="terms.html">Terms of Use (EULA)</a> &nbsp;|&nbsp; <a href="index.html">Launch RoadTrip AI Web App</a></span>
+    </div>
+  </div>
+</body>
+</html>
